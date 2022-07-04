@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="resources.Listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="4" verbose="10" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="Website.MusalaSoft.CareerSubmit">
+        <methods>
+          <include name="OpenCareersPage_TC"/>
+          <include name="VerifyJoinUsPage_TC"/>
+          <include name="beforeTest"/>
+          <include name="VerifyCareerApplyForm_TC"/>
+          <include name="VerifyQAPosition_TC"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Website.MusalaSoft.CareerSubmit -->
+      <class name="Website.MusalaSoft.FilterCareers">
+        <methods>
+          <include name="FilterCareersByLocation"/>
+          <include name="OpenCareersPage_TC"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Website.MusalaSoft.FilterCareers -->
+      <class name="Website.MusalaSoft.ContactUs">
+        <methods>
+          <include name="OpenContactUsForm_TC"/>
+          <include name="beforeTest"/>
+          <include name="VerifyContactForm_TC"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Website.MusalaSoft.ContactUs -->
+      <class name="Website.MusalaSoft.ProfilePicture">
+        <methods>
+          <include name="VerifyFacebookProfilePicture_TC"/>
+          <include name="VerifyCompanyLink_TC"/>
+          <include name="VerifyLeadershipSection_TC"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Website.MusalaSoft.ProfilePicture -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

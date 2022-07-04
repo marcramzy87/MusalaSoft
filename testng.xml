@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" thread-count="4" parallel="tests" verbose="10">
+  <listeners>
+    <listener class-name="resources.Listeners"/> 
+  	<listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+	<test name="Test">
+		
+		<classes>
+			<class name="Website.MusalaSoft.ContactUs"/>
+			<class name="Website.MusalaSoft.ProfilePicture"/>
+			<class name="Website.MusalaSoft.CareerSubmit"/>
+			<class name="Website.MusalaSoft.FilterCareers"/>
+		</classes>
+	</test>
+</suite>

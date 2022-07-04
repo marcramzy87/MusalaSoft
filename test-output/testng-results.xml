@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="17" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="278668" started-at="2022-07-04T22:35:24 GMT+02:00" finished-at="2022-07-04T22:40:03 GMT+02:00">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="278668" started-at="2022-07-04T22:35:24 GMT+02:00" finished-at="2022-07-04T22:40:03 GMT+02:00">
+      <class name="Website.MusalaSoft.ContactUs">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Website.MusalaSoft.ContactUs@2781e022]" name="beforeTest" is-config="true" duration-ms="107374" started-at="2022-07-04T22:35:24 GMT+02:00" finished-at="2022-07-04T22:37:11 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="OpenContactUsForm_TC()[pri:1, instance:Website.MusalaSoft.ContactUs@2781e022]" name="OpenContactUsForm_TC" duration-ms="335" started-at="2022-07-04T22:38:14 GMT+02:00" finished-at="2022-07-04T22:38:14 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenContactUsForm_TC -->
+        <test-method status="PASS" signature="VerifyContactForm_TC()[pri:2, instance:Website.MusalaSoft.ContactUs@2781e022]" name="VerifyContactForm_TC" duration-ms="23942" started-at="2022-07-04T22:38:36 GMT+02:00" depends-on-methods="Website.MusalaSoft.ContactUs.OpenContactUsForm_TC" finished-at="2022-07-04T22:39:00 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContactForm_TC -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Website.MusalaSoft.ContactUs@2781e022]" name="afterTest" is-config="true" duration-ms="5403" started-at="2022-07-04T22:39:57 GMT+02:00" finished-at="2022-07-04T22:40:03 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Website.MusalaSoft.ContactUs -->
+      <class name="Website.MusalaSoft.FilterCareers">
+        <test-method status="PASS" signature="OpenCareersPage_TC()[pri:1, instance:Website.MusalaSoft.FilterCareers@1877ab81]" name="OpenCareersPage_TC" duration-ms="34856" started-at="2022-07-04T22:37:39 GMT+02:00" finished-at="2022-07-04T22:38:14 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenCareersPage_TC -->
+        <test-method status="PASS" signature="FilterCareersByLocation()[pri:2, instance:Website.MusalaSoft.FilterCareers@1877ab81]" name="FilterCareersByLocation" duration-ms="9881" started-at="2022-07-04T22:38:26 GMT+02:00" depends-on-methods="Website.MusalaSoft.FilterCareers.OpenCareersPage_TC" finished-at="2022-07-04T22:38:36 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterCareersByLocation -->
+      </class> <!-- Website.MusalaSoft.FilterCareers -->
+      <class name="Website.MusalaSoft.CareerSubmit">
+        <test-method status="PASS" signature="OpenCareersPage_TC()[pri:1, instance:Website.MusalaSoft.CareerSubmit@4232c52b]" name="OpenCareersPage_TC" duration-ms="27716" started-at="2022-07-04T22:37:11 GMT+02:00" finished-at="2022-07-04T22:37:39 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenCareersPage_TC -->
+        <test-method status="PASS" signature="VerifyJoinUsPage_TC()[pri:2, instance:Website.MusalaSoft.CareerSubmit@4232c52b]" name="VerifyJoinUsPage_TC" duration-ms="8001" started-at="2022-07-04T22:39:00 GMT+02:00" depends-on-methods="Website.MusalaSoft.CareerSubmit.OpenCareersPage_TC" finished-at="2022-07-04T22:39:08 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyJoinUsPage_TC -->
+        <test-method status="PASS" signature="VerifyQAPosition_TC()[pri:3, instance:Website.MusalaSoft.CareerSubmit@4232c52b]" name="VerifyQAPosition_TC" duration-ms="7882" started-at="2022-07-04T22:39:14 GMT+02:00" depends-on-methods="Website.MusalaSoft.CareerSubmit.VerifyJoinUsPage_TC" finished-at="2022-07-04T22:39:22 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyQAPosition_TC -->
+        <test-method status="PASS" signature="VerifyCareerApplyForm_TC()[pri:4, instance:Website.MusalaSoft.CareerSubmit@4232c52b]" name="VerifyCareerApplyForm_TC" duration-ms="35086" started-at="2022-07-04T22:39:22 GMT+02:00" depends-on-methods="Website.MusalaSoft.CareerSubmit.VerifyQAPosition_TC" finished-at="2022-07-04T22:39:57 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCareerApplyForm_TC -->
+      </class> <!-- Website.MusalaSoft.CareerSubmit -->
+      <class name="Website.MusalaSoft.ProfilePicture">
+        <test-method status="PASS" signature="VerifyCompanyLink_TC()[pri:1, instance:Website.MusalaSoft.ProfilePicture@57e1b0c]" name="VerifyCompanyLink_TC" duration-ms="11961" started-at="2022-07-04T22:38:14 GMT+02:00" finished-at="2022-07-04T22:38:26 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCompanyLink_TC -->
+        <test-method status="PASS" signature="VerifyLeadershipSection_TC()[pri:2, instance:Website.MusalaSoft.ProfilePicture@57e1b0c]" name="VerifyLeadershipSection_TC" duration-ms="120" started-at="2022-07-04T22:39:08 GMT+02:00" depends-on-methods="Website.MusalaSoft.ProfilePicture.VerifyCompanyLink_TC" finished-at="2022-07-04T22:39:08 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLeadershipSection_TC -->
+        <test-method status="PASS" signature="VerifyFacebookProfilePicture_TC()[pri:3, instance:Website.MusalaSoft.ProfilePicture@57e1b0c]" name="VerifyFacebookProfilePicture_TC" duration-ms="6035" started-at="2022-07-04T22:39:08 GMT+02:00" depends-on-methods="Website.MusalaSoft.ProfilePicture.VerifyCompanyLink_TC" finished-at="2022-07-04T22:39:14 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFacebookProfilePicture_TC -->
+      </class> <!-- Website.MusalaSoft.ProfilePicture -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
